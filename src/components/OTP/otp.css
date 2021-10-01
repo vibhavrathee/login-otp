@@ -1,0 +1,52 @@
+.otpPage {
+  margin-left: 40px;
+  margin-right: 40px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 300px;
+}
+.myPrevBtn {
+  margin-top: 35px;
+  margin-right: auto;
+  margin-bottom: auto;
+  /* border: 0.5px solid rgb(139, 139, 139) !important; */
+  box-shadow: 0px 0px 2px 2px rgb(194, 194, 194) !important;
+  border-radius: 6px !important;
+  margin-bottom: 35px;
+}
+#info {
+  margin-top: 24px;
+  /* max-width: 343px; */
+}
+#myFooter {
+  margin-top: 35px;
+  /* font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif; */
+  color: rgb(104, 104, 104);
+  /* margin-bottom: 15px; */
+}
+#myOTPinput {
+  max-width: 65px;
+  height: 55px;
+  text-align: center;
+  margin: 8px;
+  border-radius: 10px;
+  /* border: 0.5px rgb(167, 154, 252) solid; */
+}
+/*  */
+#myForm {
+  width: 100% !important;
+  /* max-width: 343px; */
+  /* width: 343px; */
+}
+#myImg {
+  margin-top: 15px;
+  height: 140px;
+  width: 226px;
+  border-radius: 8px;
+}
+.myHeading {
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  color: rgb(104, 104, 104);
+}

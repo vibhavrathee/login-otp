@@ -1,0 +1,66 @@
+.mobilePage {
+  margin-top: 40px;
+  /* margin-bottom: 40px; */
+  margin-left: 20px;
+  margin-right: 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  max-width: 320px;
+  /* padd */
+  padding-left: 14px;
+  padding-right: 14px;
+}
+
+.mobilePage .textOnInput {
+  color: blueviolet;
+  width: 100%;
+  position: relative;
+  /* box-shadow: 0px 0px 2px 2px; */
+}
+.mobilePage .textOnInput label {
+  position: absolute;
+  top: -15px;
+  left: 23px;
+  padding: 2px;
+  z-index: 1;
+}
+.mobilePage .textOnInput label:after {
+  content: " ";
+  background-color: #fff;
+  width: 100%;
+  height: 13px;
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  z-index: -1;
+}
+.mobilePage label {
+  font-size: 16px;
+  font-weight: 500;
+  display: inline-block;
+  margin-bottom: 0.5rem;
+}
+.mobilePage .form-control {
+  box-shadow: none !important;
+}
+
+#info {
+  margin-top: 24px;
+}
+#myForm {
+  margin-top: 25px;
+  width: 100% !important;
+  padding-bottom: 20px;
+}
+#myImg {
+  margin-top: 15px;
+  height: 140px;
+  width: 226px;
+  border-radius: 8px;
+}
+#myBtn {
+  background-color: blueviolet !important;
+  margin-bottom: 40px;
+}
